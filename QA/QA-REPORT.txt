@@ -1,0 +1,10 @@
+VELTRIXS FINAL QUALITY ASSURANCE
+
+Fixed root cause: project previews had zero width under flex align-items:flex-start. Original illustrative previews retained with responsive aspect ratios and clickable project links. Sticky navigation now has a solid dark background. Other changes: mobile layouts, action buttons, social icons, accessibility, pricing fallback, search feedback, quote CTA, SEO metadata and cache-busting.
+
+PASS: 21 public HTML pages rendered at 320, 375, 768 and 1366px widths (84 checks) in Chromium, with local CSS, JS and images inlined by a test harness because direct URL/file navigation is blocked in this environment. No unexpected checked-element horizontal overflow, zero-sized project previews, or JS runtime errors in those tests. Screenshots in this QA folder show representative pages. Reduced-motion enabled for deterministic screenshots.
+PASS: mobile menu open/Escape, portfolio filter, blog search, blank form endpoint protection, configured form action assignment.
+PASS: 1066 href/src references examined; internal file/fragment targets valid. Unique page titles/descriptions, one H1 per page, valid JSON-LD syntax, image alt attributes, sitemap/canonical agreement, single business email, social profile links present.
+PASS: JavaScript syntax checks.
+
+NOT VERIFIED: actual hosted navigation, external project/social URL availability, real form delivery or email notification, optional Node server/SMTP, Google indexing and analytics, Safari/Firefox/Edge, Lighthouse speed scores. Form endpoint deliberately blank per request. Previews are original illustrative mockups, not live website screenshots.
